@@ -1,23 +1,23 @@
 Q1. Make a new directory(folder):
 Ans: mkdir MonirDir
-mkdir MonirDir command make a new directory name MonirDir to your current root 
+mkdir MonirDir command make a new directory name MonirDir to our current root 
 
 Q2. Create text file using touch
 Ans: touch monir
-touch monir make a new txt file name monir to your current directory
+touch monir make a new txt file name monir to our current directory
 
 3. Delete a single file
 Ans: rm monir 
-rm monir remove monir file to your current directory
+rm monir remove monir file to our current directory
 
 4. Change working directory
 Ans: cd newDirectory
-if the newDirectory exists then this command change your current to newDirectory
+if the newDirectory exists then this command change our current to newDirectory
 
 5. how to Move to parent folder using cd
 Ans: cd ~
-This command move you to the parent folder. we can use cd .. this command back you to the 
-back folder
+This command move to the parent folder. we can use cd .. this command back to the 
+previous folder
 
 6. List contents of a folder including hidden files.
 Ans: ls -al 
