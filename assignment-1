@@ -1,0 +1,47 @@
+Q1. Make a new directory(folder):
+Ans: mkdir MonirDir
+mkdir MonirDir command make a new directory name MonirDir to your current root 
+
+Q2. Create text file using touch
+Ans: touch monir
+touch monir make a new txt file name monir to your current directory
+
+3. Delete a single file
+Ans: rm monir 
+rm monir remove monir file to your current directory
+
+4. Change working directory
+Ans: cd newDirectory
+if the newDirectory exists then this command change your current to newDirectory
+
+5. how to Move to parent folder using cd
+Ans: cd ~
+This command move you to the parent folder. we can use cd .. this command back you to the 
+back folder
+
+6. List contents of a folder including hidden files.
+Ans: ls -al 
+ls -al command give us the all files including hidden files
+
+7. Print current directory
+Ans: pwd
+this command show us Paresent Working Directory
+
+8. How to set hostname
+Ans: sudo nano /etc/hostname
+after this command we have to change current host and save it and then use 
+sudo nano /etc/hosts 
+and change also host and save it. after we have to use 
+sudo reboot 
+using this command we can see our host name change.
+
+Also we can use this command : sudo hostname my_hostname
+
+9. How to set timezone
+Ans: we can see our current time zone using command: 
+timedatectl
+to set timezone using this command:
+sudo timedatectl set-timezone Asia/Dhaka
+
+10.How to move file /tmp 
+Ans:  we can move a file using this command : mv monir /tmp
