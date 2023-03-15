@@ -1,0 +1,32 @@
+1. If you want to see the disk usage of your linux system which command you run ?
+Ans: df -HT
+this command give us the dis usage of our linux system
+
+2.  If you want to see memery usage of your linux system which command you run ?
+Ans: free -m
+This command show us the memory of uses in our linux system
+
+3. If you want to see the running process of your linux system which command you run ?
+Ans: top
+This command show us the hole process of our linux system. top means Table of Process
+
+4. If you want kill any process , What is the command?
+Ans: kill -l show us the list of process id
+
+and then we need to this command: 
+kill 9 
+
+here 9 is process id
+
+
+5. What does rwx & UGOmeaning in file permission and ownership?
+Ans: rwx - means read write execute and UGO - means User Group Others
+
+6. What permission define in the 664 ?
+Ans: sudo chmod 664 
+rw-rw-r--
+here 664 means first six for user have the permission read and write and 2nd 6 for gorup user have the permission same as user read and write and 4 means other user only have the permission read.
+
+7. Write the name of file ownership attribute ?
+Ans: ls -al
+this command show the all file and the how is the ownner is 
